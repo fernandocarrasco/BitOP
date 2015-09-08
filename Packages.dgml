@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Antlr 3.4.1.9004" Category="Package" Bounds="877.231666666666,167.88,102.053333333333,25.96" Label="Antlr 3.4.1.9004" />
+    <Node Id="BitOp" Category="Project" Bounds="655.258333333333,0,50,25.96" Label="BitOp" />
+    <Node Id="EntityFramework 5.0.0" Category="Package" Bounds="133.16,55.9600000000002,136.196666666667,25.96" Label="EntityFramework 5.0.0" />
+    <Node Id="Ext.NET.Utilities 2.5.0" Category="Package" Bounds="1273.535,111.92,129.446666666667,25.96" Label="Ext.NET.Utilities 2.5.0" />
+    <Node Id="KY.Controls 1.0.5" Category="Package" Bounds="625.835,55.96,108.846666666667,25.96" Label="KY.Controls 1.0.5" />
+    <Node Id="Microsoft.AspNet.Mvc 5.2.3" Category="Package" Bounds="299.885,55.9600000000002,164.746666666667,25.96" Label="Microsoft.AspNet.Mvc 5.2.3" />
+    <Node Id="Microsoft.AspNet.Razor 3.2.3" Category="Package" Bounds="295.961666666667,167.88,172.593333333333,25.96" Label="Microsoft.AspNet.Razor 3.2.3" />
+    <Node Id="Microsoft.AspNet.Web.Optimization 1.1.3" Category="Package" Bounds="765.261666666667,55.96,237.993333333333,25.96" Label="Microsoft.AspNet.Web.Optimization 1.1.3" />
+    <Node Id="Microsoft.AspNet.WebPages 3.2.3" Category="Package" Bounds="413.456666666667,111.92,197.603333333333,25.96" Label="Microsoft.AspNet.WebPages 3.2.3" />
+    <Node Id="Microsoft.AspNet.WebPages.Data 3.2.3" Category="Package" Bounds="1433.81,111.92,224.896666666667,25.96" Label="Microsoft.AspNet.WebPages.Data 3.2.3" />
+    <Node Id="Microsoft.AspNet.WebPages.WebData 3.2.3" Category="Package" Bounds="1151.775,55.9599999999999,248.966666666667,25.96" Label="Microsoft.AspNet.WebPages.WebData 3.2.3" />
+    <Node Id="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package" Bounds="639.455,167.88,207.606666666667,25.96" Label="Microsoft.Web.Infrastructure 1.0.0.0" />
+    <Node Id="Microsoft.jQuery.Unobtrusive.Validation 3.2.3" Category="Package" Bounds="1560.40666666667,55.9599999999999,257.703333333333,25.96" Label="Microsoft.jQuery.Unobtrusive.Validation 3.2.3" />
+    <Node Id="Modernizr 2.6.2" Category="Package" Bounds="-7.105427357601E-15,55.9600000000002,102.516666666667,25.96" Label="Modernizr 2.6.2" />
+    <Node Id="Newtonsoft.Json 6.0.8" Category="Package" Bounds="1009.53166666667,167.88,135.453333333333,25.96" Label="Newtonsoft.Json 6.0.8" />
+    <Node Id="Transformer.NET 2.1.1" Category="Package" Bounds="1107.76666666667,111.92,134.983333333333,25.96" Label="Transformer.NET 2.1.1" />
+    <Node Id="WebActivatorEx 2.0.6" Category="Package" Bounds="773.796666666666,111.92,130.923333333333,25.96" Label="WebActivatorEx 2.0.6" />
+    <Node Id="WebGrease 1.5.2" Category="Package" Bounds="935.195,111.92,108.126666666667,25.96" Label="WebGrease 1.5.2" />
+    <Node Id="bootstrap 3.0.0" Category="Package" Bounds="495.473333333333,55.96,99.57,25.96" Label="bootstrap 3.0.0" />
+    <Node Id="jQuery 1.10.2" Category="Package" Bounds="1644.575,167.88,89.3666666666668,25.96" Label="jQuery 1.10.2" />
+    <Node Id="jQuery.Validation 1.11.1" Category="Package" Bounds="1720.045,111.92,144.426666666667,25.96" Label="jQuery.Validation 1.11.1" />
+  </Nodes>
+  <Links>
+    <Link Source="BitOp" Target="EntityFramework 5.0.0" Category="Installed Package" Bounds="278.055236816406,15.5718412399292,377.203125,41.0398645401001" />
+    <Link Source="BitOp" Target="KY.Controls 1.0.5" Category="Installed Package" Bounds="680.258361816406,25.9599990844727,0,21" />
+    <Link Source="BitOp" Target="Microsoft.AspNet.Mvc 5.2.3" Category="Installed Package" Bounds="460.225250244141,17.6746311187744,195.033111572266,36.6243343353271" />
+    <Link Source="BitOp" Target="Microsoft.AspNet.Web.Optimization 1.1.3" Category="Installed Package" Bounds="705.258361816406,19.8378429412842,123.002502441406,33.7412853240967" />
+    <Link Source="BitOp" Target="Microsoft.AspNet.WebPages.WebData 3.2.3" Category="Installed Package" Bounds="705.258361816406,15.3271389780387,438.057842883836,41.130456314765" />
+    <Link Source="BitOp" Target="Microsoft.jQuery.Unobtrusive.Validation 3.2.3" Category="Installed Package" Bounds="705.258361816406,14.3665208816528,846.162170410156,46.9288740158081" />
+    <Link Source="BitOp" Target="Modernizr 2.6.2" Category="Installed Package" Bounds="110.259986877441,14.5902032852173,544.998374938965,40.5829801559448" />
+    <Link Source="BitOp" Target="bootstrap 3.0.0" Category="Installed Package" Bounds="584.885803222656,23.3332977294922,70.3958740234375,29.1803855895996" />
+    <Link Source="Microsoft.AspNet.Mvc 5.2.3" Target="Microsoft.AspNet.Razor 3.2.3" Category="Package Dependency" Bounds="382.258331298828,81.9199981689453,0,76.9600067138672" />
+    <Link Source="Microsoft.AspNet.Mvc 5.2.3" Target="Microsoft.AspNet.WebPages 3.2.3" Category="Package Dependency" Bounds="412.412017822266,81.9199981689453,61.4259948730469,26.441535949707" />
+    <Link Source="Microsoft.AspNet.Web.Optimization 1.1.3" Target="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package Dependency" Bounds="743.258361816406,81.9199981689453,105.003479003906,76.9600067138672" />
+    <Link Source="Microsoft.AspNet.Web.Optimization 1.1.3" Target="WebGrease 1.5.2" Category="Package Dependency" Bounds="908.613220214844,81.9199981689453,48.3477783203125,25.7670669555664" />
+    <Link Source="Microsoft.AspNet.WebPages 3.2.3" Target="Microsoft.AspNet.Razor 3.2.3" Category="Package Dependency" Bounds="420.678649902344,137.880004882813,61.4259948730469,26.4415283203125" />
+    <Link Source="Microsoft.AspNet.WebPages 3.2.3" Target="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package Dependency" Bounds="565.839111328125,137.880004882813,115.091430664063,27.8810272216797" />
+    <Link Source="Microsoft.AspNet.WebPages.WebData 3.2.3" Target="Microsoft.AspNet.WebPages.Data 3.2.3" Category="Package Dependency" Bounds="1338.88525390625,81.9199981689453,135.933471679688,28.1734848022461" />
+    <Link Source="Microsoft.jQuery.Unobtrusive.Validation 3.2.3" Target="jQuery 1.10.2" Category="Package Dependency" Bounds="1689.25830078125,81.9199981689453,0,76.9600067138672" />
+    <Link Source="Microsoft.jQuery.Unobtrusive.Validation 3.2.3" Target="jQuery.Validation 1.11.1" Category="Package Dependency" Bounds="1713.14929199219,81.9199981689453,47.309814453125,25.7034606933594" />
+    <Link Source="WebActivatorEx 2.0.6" Target="Microsoft.Web.Infrastructure 1.0.0.0" Category="Package Dependency" Bounds="773.301086425781,137.880004882813,43.68994140625,25.4675750732422" />
+    <Link Source="WebGrease 1.5.2" Target="Antlr 3.4.1.9004" Category="Package Dependency" Bounds="949.039428710938,137.880004882813,26.0698852539063,23.9159088134766" />
+    <Link Source="WebGrease 1.5.2" Target="Newtonsoft.Json 6.0.8" Category="Package Dependency" Bounds="1009.67004394531,137.880004882813,39.58203125,25.1705780029297" />
+    <Link Source="jQuery.Validation 1.11.1" Target="jQuery 1.10.2" Category="Package Dependency" Bounds="1721.05749511719,137.880004882813,47.309814453125,25.7034606933594" />
+  </Links>
+  <Categories>
+    <Category Id="Installed Package" />
+    <Category Id="Package" />
+    <Category Id="Package Dependency" />
+    <Category Id="Project" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Project" ValueLabel="True">
+      <Condition Expression="HasCategory('Project')" />
+      <Setter Property="Background" Value="Blue" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Package Dependency" ValueLabel="True">
+      <Condition Expression="HasCategory('Package Dependency')" />
+      <Setter Property="Background" Value="Yellow" />
+    </Style>
+  </Styles>
+</DirectedGraph>
